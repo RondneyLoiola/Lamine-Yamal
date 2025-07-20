@@ -1,13 +1,17 @@
 /* Tablet Styles (768px - 1024px) */
 @media (max-width: 1024px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
     header section {
-        flex-direction: column;
-        padding: 1rem 0;
+        padding-top: 1rem;
+
     }
 
     header section img {
-        right: 0;
-        margin-bottom: 1rem;
+        display: none;
     }
 
     header nav {
@@ -17,8 +21,7 @@
     }
 
     header nav a {
-        font-size: 1.2rem;
-        margin: 0 0.5rem;
+        font-size: 1rem;
     }
 
     .home .box h2 {
@@ -89,13 +92,16 @@
 
 /* Mobile Styles (up to 767px) */
 @media (max-width: 767px) {
-    header section a img{
+    
+
+    header section a img {
         display: none;
     }
 
     header nav a {
         font-size: 1rem;
-        margin: 1rem 0.3rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
     }
 
     .home .box h2 {
@@ -144,6 +150,8 @@
 
 /* Small Mobile Styles (up to 480px) */
 @media (max-width: 480px) {
+
+
     .home .box h2 {
         font-size: 2.5rem;
         top: 8rem;
