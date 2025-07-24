@@ -7,7 +7,6 @@
 
     header section {
         padding-top: 1rem;
-
     }
 
     header section img {
@@ -21,8 +20,7 @@
     }
 
     header nav a {
-        font-size: 1rem;
-        margin: 0 0.7rem;
+        display: none;
     }
 
     .home .box h2 {
@@ -89,11 +87,12 @@
         flex-direction: column;
         gap: 0;
     }
+
 }
 
 /* Mobile Styles (up to 767px) */
 @media (max-width: 767px) {
-    
+
 
     header section a img {
         display: none;
